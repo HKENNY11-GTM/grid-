@@ -165,41 +165,38 @@ body{
 @media screen and (min-width: 768px){
 body{
     width: 100%;
-    display: flex;
+    /* display: flex; */
 }
 .container{
     display:grid;
-    grid-template-columns:repeat(3,1fr) ;
+    grid-template-columns:repeat(4,1fr) ;
     grid-template-rows: repeat(2,1fr);
-    grid-template-areas:"clifford clifford walters kira"
-                        "harmon abrams abrams kira";
-    width: 90%;
-    gap:0;
-    margin:0;
-    justify-content: center;
-    align-items: center;
-    grid-column-gap: 25px;
-    height: 100vh;
+    border: 1px solid red;
 }
 .clifford{
-    grid-area: clifford; 
+    /* grid-area: clifford;  */
+    grid-area:1/1/2/2 ;
     
 }
 .walters{
-    grid-area: walters;
+    /* grid-area: walters; */
+    grid-area:1/3/2/4;
 }
 .kira{
-    grid-area: kira;
+    /* grid-area: kira; */
+    grid-area:1/4/3/5;
 }
 .harmon{
-    grid-area: harmon;
+    /* grid-area: harmon; */
+    grid-area:2/1/3/2;
 }
 .abrams{
-    grid-area: abrams;
+    /* grid-area: abrams; */
+    grid-area:2/2/3/4;
 }
 .kira{
-    grid-area: kira;
-    
+    /* grid-area: kira; */
+    grid-area:1/4/3/5;
 }
 }
  
