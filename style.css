@@ -178,6 +178,102 @@ body{
         height: 100%;
     }
 }
+@media screen and (width: 1440px){
+        .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "clifford clifford walters kira"
+            "harmon abrams abrams kira";
+        gap: 20px;
+        /* max-width: 1100px; */
+        width: 110%;
+        margin: auto;
+    }
+
+    .clifford {
+        grid-area: clifford;
+    }
+
+    .walters {
+        grid-area: walters;
+    }
+     .walters>.les img{
+        width: 20%;
+    }
+
+    .harmon {
+        grid-area: harmon;
+    }
+     .harmon>.les img{
+        width: 20%;
+     }
+    .abrams {
+        grid-area: abrams;
+    }
+
+    .kira {
+        grid-area: kira;
+    }
+    .kira> .les img{
+        width: 20%;
+    }
+    .kira .sujet{
+        font-size: 0.8rem;
+    }
+    .sample {
+        height: 100%;
+    }
+}
+@media screen and (width: 2560px){
+.container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "clifford clifford walters kira"
+            "harmon abrams abrams kira";
+        gap: 20px;
+        /* max-width: 1100px; */
+        width: 110%;
+        margin: auto;
+    }
+
+.clifford {
+        grid-area: clifford;
+    }
+
+.walters {
+        grid-area: walters;
+    }
+ .walters>.les img{
+        width: 20%;
+    }
+
+.harmon {
+        grid-area: harmon;
+    }
+.harmon>.les img{
+        width: 20%;
+     }
+    .abrams {
+        grid-area: abrams;
+    }
+
+    .kira {
+        grid-area: kira;
+    }
+    .kira> .les img{
+        width: 20%;
+    }
+    .kira .sujet{
+        font-size: 0.8rem;
+    }
+    .sample {
+        height: 100%;
+    }
+}
+
+
 
 
     
